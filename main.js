@@ -9,7 +9,7 @@ window.addEventListener('DOMContentLoaded', () => {
     btn.addEventListener('click', (event) => {
         event.preventDefault()
         if (title.value == "" && aftr.value == "" && data.value == "") {
-            alert("salom")
+            alert("Uzur malumot kiriting")
         }
         else {
             const rowText = document.createElement('tr')
