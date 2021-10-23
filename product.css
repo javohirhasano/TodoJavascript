@@ -1,0 +1,136 @@
+img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+img:hover {
+    min-width: 220px;
+    min-height: 220px;
+}
+
+.product-menu {
+  
+    min-height: 100vh;
+ 
+}
+.card-menu {
+    max-width: 600px;
+    min-height: 500px;
+    background-color: white;
+    position: relative;
+   top: 20%;
+   left: 30%;
+   text-align: center;
+   font-size: 26px;
+   border-radius: 10px;
+   box-shadow: 2px 10px 10px 3px blue;
+   color: blue;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    top: 0;
+    left: 0;
+    background-color: cornflowerblue;
+
+}
+.input_one{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 90%;
+    height: 50px;
+    font-size: 25px;
+    color: blue;
+    border-color: skyblue;
+    box-shadow: 3px 5px 10px 1px blue;
+}
+.input_one:hover{
+    box-shadow: 3px 8px 10px 1px blue;
+}
+.input_two{
+    margin-top: 20px;
+    width: 90%;
+    height: 50px;
+    font-size: 25px;
+    color: green;
+    border-color: skyblue;
+    box-shadow: 3px 5px 10px 1px rgb(43, 255, 0);
+}
+.input_two:hover{
+    box-shadow: 3px 8px 10px 1px rgb(43, 255, 0);
+}
+.input_three{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 20px;
+    width: 90%;
+    height: 50px;
+    font-size: 25px;
+    color: red;
+    border-color: skyblue;
+    box-shadow: 3px 5px 10px 1px rgb(255, 0, 0);
+}
+.input_three:hover{
+    box-shadow: 3px 8px 10px 1px rgb(255, 0, 0);
+}
+.btn{
+    background-color: rgb(255, 136, 0);
+    width: 90%;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+    color: burlywood;
+}
+.btn:hover{
+    background-color: rgb(197, 107, 5);
+    transition:0,7s ease;
+}
+table{
+    margin-top: 20px;
+    min-width: 100%;
+border-top: 1px solid black;
+}
+th{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+td{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+@media(max-width:700px){
+    .product-menu {
+        min-width: 100%;
+        max-height: 100vh;
+    }
+    .card-menu{
+        max-width: 100%;
+        min-height: 100vh;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        border-radius: 0;
+        background-color: black;
+        color: white;
+    }
+    table{
+        margin-top: 20px;
+        min-width: 100%;
+    border-top: 1px solid rgb(255, 255, 255);
+    }
+    th{
+        border-bottom: 1px solid rgb(255, 255, 255);
+        border-right: 1px solid rgb(255, 255, 255);
+    }
+    td{
+        border-bottom: 1px solid rgb(255, 255, 255);
+        border-right: 1px solid rgb(255, 255, 255);
+    }
+
+}
